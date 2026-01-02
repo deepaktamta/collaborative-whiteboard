@@ -3,7 +3,7 @@ import io from 'socket.io-client';
 import { Trash2, Users } from 'lucide-react';
 
 // Connect to your Node server
-const socket = io.connect("http://localhost:5000");
+const socket = io.connect("https://whiteboard-backend-q13q.onrender.com");
 
 function App() {
   const canvasRef = useRef(null);
